@@ -1,0 +1,33 @@
+{
+    "name": "laravelpackages/laravel-select2",
+    "description": "Select2",
+    "keywords": [
+        "select2",
+        "framework",
+        "laravel"
+    ],
+    "license": "MIT",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Rafael Zingano",
+            "email": "laravelpackages@gmail.com"
+        }
+    ],
+    "require": {
+        "laravelcollective/html": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelPackages\\Select2\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaravelPackages\\Select2\\Providers\\Select2ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
